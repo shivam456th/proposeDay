@@ -95,8 +95,8 @@ function App() {
           <Heart size={120} fill="currentColor" />
         </motion.div>
 
-        {/* <div ref={textRef}> */}
-          <h1 className="dancing-script text-6xl md:text-7xl text-red-900 mb-6">
+        <div ref={textRef}>
+          <h1 className="dancing-script text-6xl md:text-7xl text-gray-900 mb-6">
             Will You Be Mine Forever?
           </h1>
           
@@ -157,7 +157,7 @@ function App() {
               </div>
             </motion.div>
           )}
-        {/* </div> */}
+        </div>
       </div>
 
       {/* Decorative elements */}
